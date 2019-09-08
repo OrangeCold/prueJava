@@ -10,7 +10,7 @@ public class ArrayTitle {
         int res = 0;
         for(int i = 0; i < nums.length;i++){
             res ^= nums[i];
-
+            System.out.println("合并代码测试");
         }
         return res;
     }
